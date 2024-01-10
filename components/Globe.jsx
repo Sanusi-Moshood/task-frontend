@@ -21,7 +21,16 @@ const Map = () => {
       projection: 'globe'
     });
 
-   
+    map.on('style.load', () => {
+      map.setFog({
+          color: 'transparent', // Lower atmosphere
+          'high-color': 'transparent', // Upper atmosphere
+          'horizon-blend': 0.02, // Atmosphere thickness (default 0.2 at low zooms)
+          'space-color': 'transparent', // Background color
+          'star-intensity': 0.6 // Background star brightness (default 0.35 at low zoooms )
+      });
+  });
+  
    
 
     map.on("load", function () {

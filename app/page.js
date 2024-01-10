@@ -7,7 +7,12 @@ import Image from "next/image"
 export default function Home() {
   return (
     <main>
-      <div className="absolute top-0 left-0 w-full h-screen -z-10 bg-[#090B17FF]">
+ 
+       <Nav />
+       <SideBar />
+       <Globe />
+
+       <div className="absolute top-0 left-0 w-full h-screen -z-10 bg-[#090B17FF]">
       <Image 
             src={'/skybg.png'}
             alt="logo" 
@@ -20,11 +25,6 @@ export default function Home() {
             />
 
       </div>
-       <Nav />
-       <SideBar />
-       <Globe />
-
-
        <Footer />
  
     </main>

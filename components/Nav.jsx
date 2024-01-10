@@ -3,7 +3,7 @@ import Image from "next/image"
 
 const Nav = () => {
   return (
-    <nav className="w-full ">
+    <nav className="w-full z-50">
         <div className="flex items-center justify-between pt-4 px-5">
             <div>
             <Image 
