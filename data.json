@@ -1,0 +1,77 @@
+{
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Ghost",
+          "twitter": "@ghost",
+          "imageUrl": "mald2.png"
+        },
+        "geometry": {
+          "coordinates": [-7.637596, 41.940403],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Kulture",
+          "twitter": "@kulture",
+          "imageUrl": "mlad.png"
+        },
+        "geometry": {
+          "coordinates": [2.7, 91.940403],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Kulture",
+          "twitter": "@kulture",
+          "imageUrl": "mlad3.png"
+        },
+        "geometry": {
+          "coordinates": [12.637596, 1.940403],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Kulture",
+          "twitter": "@kulture",
+          "imageUrl": "mlad.png"
+        },
+        "geometry": {
+          "coordinates": [88.637596, 76.90403],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Ghost",
+          "twitter": "@ghost",
+          "imageUrl": "mlad4.png"
+        },
+        "geometry": {
+          "coordinates": [-71.637596, 31.940403],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Ghost",
+          "twitter": "@ghost",
+          "imageUrl": "mlad4.png"
+        },
+        "geometry": {
+          "coordinates": [-47.637596, -24.940403],
+          "type": "Point"
+        }
+      }
+  ],
+    "type": "FeatureCollection"
+  }
