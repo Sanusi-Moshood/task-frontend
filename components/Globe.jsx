@@ -22,7 +22,7 @@ const Map = () => {
     });
 
    
-  });
+   
 
     map.on("load", function () {
         // Loop through each feature in GeoJSON data
